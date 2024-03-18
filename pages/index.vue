@@ -20,7 +20,8 @@ const copyToClipboard = (text: string) => {
         </button>
       </div>
       <div @click="copyToClipboard(clipboard.text)"
-        class="mt-1 p-2 text-xl border hover:bg-base-200 active:bg-neutral-content" style="white-space: pre-line;">{{
+        class="mt-1 p-2 text-xl border hover:bg-base-200 active:bg-neutral-content select-none cursor-pointer"
+        style="white-space: pre-line;">{{
       clipboard.text }}</div>
     </div>
   </div>
