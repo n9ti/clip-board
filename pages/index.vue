@@ -19,7 +19,8 @@ const copyToClipboard = (text: string) => {
           </svg>
         </button>
       </div>
-      <div @click="copyToClipboard(clipboard.text)" class="mt-1 p-2 text-xl border" style="white-space: pre-line;">{{
+      <div @click="copyToClipboard(clipboard.text)"
+        class="mt-1 p-2 text-xl border hover:bg-base-200 active:bg-neutral-content" style="white-space: pre-line;">{{
       clipboard.text }}</div>
     </div>
   </div>
