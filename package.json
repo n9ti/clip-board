@@ -11,17 +11,18 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.5.1",
-    "nuxt": "^3.11.0",
+    "@vueuse/sound": "^2.0.1",
+    "nuxt": "^3.10.1",
     "pinia": "^2.1.7",
-    "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.0.8",
     "@nuxtjs/color-mode": "^3.3.2",
-    "@nuxtjs/tailwindcss": "^6.11.4",
+    "@nuxtjs/tailwindcss": "^6",
     "@pinia-plugin-persistedstate/nuxt": "^1.2.0",
-    "@vite-pwa/nuxt": "^0.6.0",
-    "daisyui": "^4.7.3"
+    "@vite-pwa/nuxt": "^0.4.0",
+    "daisyui": "^4"
   }
 }

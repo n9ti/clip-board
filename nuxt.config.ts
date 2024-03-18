@@ -38,7 +38,7 @@ export default defineNuxtConfig({
     storage: "localStorage",
   },
   colorMode: {
-    preference: "retro", // default theme
+    preference: "light", // default theme
     dataValue: "theme", // activate data-theme in <html> tag
     classSuffix: "",
     storageKey: "nuxt-color-mode",
