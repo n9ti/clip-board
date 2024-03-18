@@ -18,10 +18,17 @@ const cancel = () => {
 </script>
 
 <template>
-  <label class="input input-bordered flex items-center gap-2">
-    Name
-    <input v-model="newClipboardName" type="text" class="grow" placeholder="Daisy" />
-  </label>
+
+  <div class="label">
+    <span class="label-text">Label</span>
+  </div>
+  <input v-model="newClipboardName" type="text" class="input input-bordered w-full max-w-xs" placeholder="" />
+
+
+  <!-- <label class="input input-bordered flex items-center gap-2">
+    Label
+    <input v-model="newClipboardName" type="text" class="grow" placeholder="" />
+  </label> -->
 
   <!--  -->
 
@@ -29,7 +36,7 @@ const cancel = () => {
     <div class="label">
       <span class="label-text">Text</span>
     </div>
-    <textarea v-model="newClipboardText" class="textarea textarea-bordered h-24" placeholder=""></textarea>
+    <textarea v-model="newClipboardText" class="textarea textarea-bordered h-48 w-96" placeholder=""></textarea>
   </label>
 
   <!--  -->
